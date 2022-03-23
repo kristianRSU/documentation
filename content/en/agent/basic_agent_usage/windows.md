@@ -58,7 +58,7 @@ start /wait msiexec /qn /i datadog-agent-7-latest.amd64.msi APIKEY="<YOUR_DATADO
 **Powershell**
 
 ```powershell
-Start-Process -Wait msiexec -ArgumentList '/qn /i datadog-agent-7-latest.amd64.msi APIKEY="<YOUR_DATADOG_API_KEY>"'
+Start-Process -Wait msiexec -ArgumentList '/qn /passive /i datadog-agent-7-latest.amd64.msi APIKEY="<YOUR_DATADOG_API_KEY>"'
 ```
 
 **Notes**
